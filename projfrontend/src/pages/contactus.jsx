@@ -4,7 +4,7 @@ import ContactUsComponent from "../components/ContactUspage/contactcomponenet";
 const ContactUs = () => {
   return (
     <>
-      <div className="">
+      <div className="lg:mt-20">
         <ContactUsComponent />
       </div>
     </>
