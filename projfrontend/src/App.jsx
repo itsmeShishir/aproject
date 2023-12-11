@@ -6,6 +6,7 @@ import ContactUs from "./pages/contactus";
 import PageError from "./pages/404page";
 import SigninPage from "./pages/signinpage";
 import SignupPage from "./pages/signuppage";
+import RestaurantPage from "./pages/restaurantpage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="contact" element={<ContactUs />} />
         <Route path="signin" element={<SigninPage />} />
         <Route path="signup" element={<SignupPage />} />
+        <Route path="restaurant" element={<RestaurantPage />} />
         <Route path="*" element={<PageError />} />
       </Route>
     </Routes>
